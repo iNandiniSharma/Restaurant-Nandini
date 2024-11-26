@@ -1,5 +1,6 @@
 package restaurant_Nandini;
 
-public class MenuItemRecord {
-
+public record MenuItemRecord(String name, double price) {
+    // Automatically generates getters and constructor	
+	
 }
