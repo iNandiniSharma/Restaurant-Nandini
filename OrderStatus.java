@@ -1,5 +1,7 @@
 package restaurant_Nandini;
 
-public class OrderStatus {
-
+public enum OrderStatus {
+    PENDING,
+    SERVED,
+    CANCELLED
 }
