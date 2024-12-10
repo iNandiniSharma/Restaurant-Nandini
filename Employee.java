@@ -2,6 +2,7 @@
 package restaurant_Nandini;
 
 // Abstract sealed class 'Employee': Represents the base class for all employees
+// Implementing Java
 public abstract sealed class Employee permits Manager, Chef, Waiter {
     
 	// Private field to store the employee's name
