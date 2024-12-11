@@ -14,7 +14,8 @@ public class Main {
 		// Create a restaurant instance
 		// Manages orders and related operations
         Restaurant restaurant = new Restaurant();
-
+        
+        System.out.print("\nWelcome to our Restaurant, please enter your details\n");
         // Prompt user to create a customer
         System.out.print("Enter a name: ");
 		String name = sc.next();
